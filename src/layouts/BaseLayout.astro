@@ -1,0 +1,53 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Brett Zink - Engineering Leader | Cloud & Security' } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="author" content="Brett Zink" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav>
+        <a href="/" class="logo">brett zink</a>
+        <ul class="nav-links">
+          <li><a href="/" class:list={[{ active: currentPath === '/' }]}>home</a></li>
+          <li><a href="/resume/" class:list={[{ active: currentPath.startsWith('/resume') }]}>resume</a></li>
+          <li><a href="/about/" class:list={[{ active: currentPath.startsWith('/about') }]}>about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <a href="https://www.linkedin.com/in/brett-zink" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      &nbsp;&middot;&nbsp;
+      <span>&copy; {new Date().getFullYear()} Brett Zink</span>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

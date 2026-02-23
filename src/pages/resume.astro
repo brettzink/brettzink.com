@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Resume | Brett Zink">
+  <section class="section">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="experience-item">
+      <h3>Director of Cyber Security &amp; Infrastructure</h3>
+      <p class="meta">Matrix Pointe Software &middot; Jun 2021 &ndash; Present</p>
+      <ul>
+        <li>Placeholder: led cloud platform and security engineering teams</li>
+        <li>Placeholder: drove DevOps transformation and CI/CD adoption</li>
+        <li>Placeholder: managed cross-functional delivery</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Software Engineer</h3>
+      <p class="meta">Matrix Pointe Software &middot; Mar 2012 &ndash; Jun 2021</p>
+      <ul>
+        <li>Full-stack .NET development across healthcare, government/justice, and banking, with a focus on backend services, system integrations, and payment processing</li>
+        <li>Grew into the DevOps and infrastructure role organically: built CI/CD pipelines (TeamCity, Octopus Deploy), migrated hosting to AWS, and architected HA across dual data centers</li>
+        <li>Simplified distributed service architectures into consolidated, highly available systems with monitoring and self-healing</li>
+        <li>Owned security and infrastructure concerns including client incident response, firewall management, VPN design, and on-premise deployment architecture for regulated clients</li>
+        <li>Introduced observability tooling (SeriLog, Seq) and drove front-end modernization (Webpack, TypeScript, NPM)</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Co-Founder / Software Engineer</h3>
+      <p class="meta">Yottaflow &middot; Sep 2010 &ndash; Mar 2012</p>
+      <ul>
+        <li>Built a multi-tenant, cloud-based workflow and task management application on .NET and Windows Azure</li>
+        <li>Shipped v1.0 in 3 months; shipped v2.0 with a redesigned interface based on market feedback in 4 months</li>
+        <li>Maintained a 2-week release cycle for bug fixes, enhancements, and new features</li>
+        <li>Leveraged open source tools including Elmah, MVC MiniProfiler, nLog, Dapper, and NuGet</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Information Security Analyst</h3>
+      <p class="meta">Key Bank &middot; Cleveland, OH &middot; Feb 2007 &ndash; Sep 2010</p>
+      <ul>
+        <li>Performed network, application, and physical penetration tests across corporate facilities; GPEN score qualified as SANS mentor candidate</li>
+        <li>Primary engineer for ArcSight SIEM: led infrastructure redesign, built custom FlexConnectors, and architected the enterprise logging (E-Log) initiative</li>
+        <li>Led NAC evaluation from requirements through proof of concept and vendor selection across five competing platforms</li>
+        <li>Built custom tooling and automation in Perl and SQL to streamline vulnerability analysis and eliminate hours of daily manual review</li>
+        <li>Promoted from Vulnerability Specialist to Information Security Analyst to Information Security Consultant</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Cloud &amp; Infrastructure</h3>
+        <ul>
+          <li>Azure / AWS</li>
+          <li>Kubernetes / Docker</li>
+          <li>Terraform / IaC</li>
+          <li>CI/CD Pipelines</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Development</h3>
+        <ul>
+          <li>C# / .NET</li>
+          <li>TypeScript / Node.js</li>
+          <li>SQL / NoSQL</li>
+          <li>REST / gRPC</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Security</h3>
+        <ul>
+          <li>Penetration Testing</li>
+          <li>Network Security / Firewalls</li>
+          <li>PCI / Compliance</li>
+          <li>Intrusion Detection</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Leadership</h3>
+        <ul>
+          <li>Team Building</li>
+          <li>Agile / Scrum</li>
+          <li>Technical Strategy</li>
+          <li>Stakeholder Mgmt</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Certifications</h2>
+    <div class="experience-item">
+      <h3>CISSP</h3>
+      <p class="meta">Certified Information Systems Security Professional</p>
+    </div>
+    <div class="experience-item">
+      <h3>Prior SANS Certifications</h3>
+      <p class="meta">GCIA (503) &middot; GPEN (560) &middot; GSEC (401)</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="experience-item">
+      <h3>Bowling Green State University</h3>
+      <p class="meta">B.S. Computer Science &middot; 2006</p>
+    </div>
+  </section>
+</BaseLayout>
