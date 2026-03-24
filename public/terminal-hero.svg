@@ -1,74 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" fill="none">
   <!-- Terminal window -->
-  <rect x="0" y="0" width="640" height="280" rx="8" fill="#161b22"/>
-  <rect x="0" y="0" width="640" height="36" rx="8" fill="#242838"/>
-  <rect x="0" y="28" width="640" height="8" fill="#242838"/>
+  <rect x="0" y="0" width="680" height="400" rx="8" fill="#161b22"/>
+  <rect x="0" y="0" width="680" height="36" rx="8" fill="#242838"/>
+  <rect x="0" y="28" width="680" height="8" fill="#242838"/>
 
   <!-- Window dots -->
   <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
   <circle cx="40" cy="18" r="6" fill="#febc2e"/>
   <circle cx="60" cy="18" r="6" fill="#28c840"/>
 
-  <!-- Title bar text -->
-  <text x="320" y="22" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#8b949e">brettzink.com</text>
 
-  <!-- Terminal content -->
+  <!-- Command -->
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#8b949e">
     <tspan x="24" y="68">$</tspan>
   </text>
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e6edf3">
-    <tspan x="40" y="68">whoami</tspan>
+    <tspan x="40" y="68">whoami | man</tspan>
   </text>
 
+  <!-- Man page header -->
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e6edf3">
+    <tspan x="24" y="100">BRETT.ZINK(1)</tspan>
+  </text>
+
+  <!-- ROLE section -->
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#cc5500">
-    <tspan x="24" y="96">brett.zink</tspan>
-  </text>
-
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#8b949e">
-    <tspan x="24" y="132">$</tspan>
+    <tspan x="24" y="136">ROLE</tspan>
   </text>
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e6edf3">
-    <tspan x="40" y="132">cat role.txt</tspan>
+    <tspan x="60" y="160">Engineering Leader | Cloud Infrastructure &amp; Security</tspan>
   </text>
 
+  <!-- SYNOPSIS section -->
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#cc5500">
-    <tspan x="24" y="160">Director of Cyber Security &amp; Infrastructure</tspan>
+    <tspan x="24" y="196">SYNOPSIS</tspan>
+  </text>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+    <tspan x="60" y="220">security</tspan>
+  </text>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
+    <tspan x="140" y="220">→</tspan>
+  </text>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+    <tspan x="160" y="220">software</tspan>
+  </text>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
+    <tspan x="240" y="220">→</tspan>
+  </text>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+    <tspan x="260" y="220">infrastructure</tspan>
+  </text>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
+    <tspan x="386" y="220">→</tspan>
+  </text>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+    <tspan x="406" y="220">leadership</tspan>
   </text>
 
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#8b949e">
-    <tspan x="24" y="196">$</tspan>
+  <!-- DESCRIPTION section -->
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#cc5500">
+    <tspan x="24" y="256">DESCRIPTION</tspan>
   </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e6edf3">
-    <tspan x="40" y="196">history --summary</tspan>
-  </text>
-
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
-    <tspan x="24" y="224">security</tspan>
-  </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
-    <tspan x="104" y="224">→</tspan>
-  </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
-    <tspan x="124" y="224">software</tspan>
-  </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
-    <tspan x="204" y="224">→</tspan>
-  </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
-    <tspan x="224" y="224">infrastructure</tspan>
-  </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
-    <tspan x="350" y="224">→</tspan>
-  </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
-    <tspan x="370" y="224">leadership</tspan>
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#e6edf3">
+    <tspan x="60" y="280">I've spent my career at the intersection of security,</tspan>
+    <tspan x="60" y="300">infrastructure, and software. I started in banking security,</tspan>
+    <tspan x="60" y="320">moved into full-stack development and DevOps, and now lead</tspan>
+    <tspan x="60" y="340">cyber security and infrastructure at Matrix Pointe Software.</tspan>
   </text>
 
   <!-- Blinking cursor -->
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#8b949e">
-    <tspan x="24" y="258">$</tspan>
+    <tspan x="24" y="378">$</tspan>
   </text>
-  <rect x="40" y="246" width="9" height="16" fill="#cc5500">
+  <rect x="40" y="366" width="9" height="16" fill="#cc5500">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 </svg>
