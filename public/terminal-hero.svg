@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" fill="none">
   <!-- Terminal window -->
-  <rect x="0" y="0" width="680" height="400" rx="8" fill="#161b22"/>
+  <rect x="0" y="0" width="680" height="420" rx="8" fill="#161b22"/>
   <rect x="0" y="0" width="680" height="36" rx="8" fill="#242838"/>
   <rect x="0" y="28" width="680" height="8" fill="#242838"/>
 
@@ -24,7 +24,7 @@
   </text>
 
   <!-- ROLE section -->
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#cc5500">
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e0c097">
     <tspan x="24" y="136">ROLE</tspan>
   </text>
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e6edf3">
@@ -32,33 +32,33 @@
   </text>
 
   <!-- SYNOPSIS section -->
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#cc5500">
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e0c097">
     <tspan x="24" y="196">SYNOPSIS</tspan>
   </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#5b8def">
     <tspan x="60" y="220">security</tspan>
   </text>
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
     <tspan x="140" y="220">→</tspan>
   </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2ea8a8">
     <tspan x="160" y="220">software</tspan>
   </text>
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
     <tspan x="240" y="220">→</tspan>
   </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#5ae05a">
     <tspan x="260" y="220">infrastructure</tspan>
   </text>
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#8b949e">
     <tspan x="386" y="220">→</tspan>
   </text>
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#2541b2">
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#cc5500">
     <tspan x="406" y="220">leadership</tspan>
   </text>
 
   <!-- DESCRIPTION section -->
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#cc5500">
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#e0c097">
     <tspan x="24" y="256">DESCRIPTION</tspan>
   </text>
   <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#e6edf3">
@@ -68,11 +68,16 @@
     <tspan x="60" y="340">cyber security and infrastructure at Matrix Pointe Software.</tspan>
   </text>
 
-  <!-- Blinking cursor -->
-  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#8b949e">
-    <tspan x="24" y="378">$</tspan>
+  <!-- lines skipped hint -->
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#8b949e">
+    <tspan x="24" y="370">...</tspan>
   </text>
-  <rect x="40" y="366" width="9" height="16" fill="#cc5500">
+
+  <!-- prompt after q -->
+  <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#8b949e">
+    <tspan x="24" y="398">$</tspan>
+  </text>
+  <rect x="40" y="386" width="9" height="16" fill="#cc5500">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 </svg>
